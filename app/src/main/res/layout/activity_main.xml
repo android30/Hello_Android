@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    :orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/ctivity_horizontal_margin"
+    android:paddingRight="@dimen/ctivity_horizontal_margin"
+    android:paddingTop="@dimen/ctivity_horizontal_margin"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.example.quatess.helloworld.MainActivity">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/hello"
+          android:textSize="30sp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/firstbutton"
+            android:hint="Pich Me"
+            android:onClick="onYesButtonClick"
+            android:id="@+id/answear_yes_button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/secondbutton"
+            android:hint="Pick Me"
+            android:onClick="onNoButtonClick"
+            android:id="@+id/answear_no_button" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+ 
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="@string/user_name_edit"
+                android:id="@+id/ans_name_edit"/>
+
+        </LinearLayout>
+
+</LinearLayout>
+

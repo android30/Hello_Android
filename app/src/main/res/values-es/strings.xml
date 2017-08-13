@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hola de nuevo</string>
+    <string name="hello">Estás feliz</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="firstbutton">Si</string>
+    <string name="secondbutton">No</string>
+    <string name="button_1">Has hecho clic</string>
+    <string name="user_name_edit">tu nombre</string>
+</resources>
+
